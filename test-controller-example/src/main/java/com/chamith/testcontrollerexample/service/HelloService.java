@@ -1,2 +1,10 @@
-package com.chamith.testcontrollerexample.service;public class HelloService {
+package com.chamith.testcontrollerexample.service;
+
+import org.springframework.stereotype.Service;
+
+@Service
+public class HelloService {
+    public String hello() {
+        return "Hello world";
+    }
 }
